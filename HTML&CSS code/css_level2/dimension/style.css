@@ -1,0 +1,19 @@
+.box{
+    max-height: 100px;
+    border: 1px solid black;
+    overflow:scroll;
+}
+.mydiv{
+    margin: 10px;
+    border: 1px solid black;
+    min-height: 100px;
+}
+#divi{
+    height: 50px;
+    border: 1px solid black;
+    /* yaha prr 4 property laga hai overflow prr, prr isme se jo last wala hoga property uske hisab se deside hogi!! */
+    overflow: visible;
+    overflow: hidden;
+    overflow: auto;
+    overflow: scroll;
+}

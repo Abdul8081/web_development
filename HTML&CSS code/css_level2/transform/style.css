@@ -1,0 +1,30 @@
+.box{
+    background-color: aqua;
+    transform: translate(250px,0);
+    transform: translateX(100px);
+    transform: translateY(100px);
+
+    /* agr domo ko eik me hi likhna chahe to */
+
+    transform: translate(100px,50px); 
+
+
+    /* let's see rotation property */
+    /* transform: rotate(45deg);
+    transform: rotate(-45deg); */
+    /* margin: 200px;
+    transform: scale(1,3);
+    transform: scale(3);
+    transform: scale(1.5);
+    transform: scaleX(2);
+    transform: scaleY(3);
+    transform: scale(1,5); */
+    transform: scale(1,8);
+
+
+    transform: skew(45deg);
+    transform: skew(135deg);
+
+    
+     
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 150px;
+            border: 5px solid black;
+            background-color: yellow;
+            /* margin : space between the two block element(space between two boundary)  */
+            margin: 10px; 
+
+            /* padding : spce between the border and the content(kisi elemnt  k block k ander border aur content k beech ke space to padding kahte hai ) */
+            
+            padding: 10px;
+
+            /* padding add krne se box ki size change ho ja rahi hai, agr usko rokna hai to we have to do:
+            box-sizing:border-box; */
+
+            box-sizing: border-box;
+        }
+        #org{
+            background-color: orange;
+        }
+        #wht{
+            background-color: white;
+        }
+        #grn{
+            background-color:green ;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="org">A</div>
+    <div class="box" id="wht">B</div>
+    <div class="box" id="grn">C</div>
+    
+    
+</body>
+</html>
