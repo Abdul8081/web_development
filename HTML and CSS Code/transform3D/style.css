@@ -1,0 +1,16 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+.translated{
+    transform: perspective(10px) translateZ(-10px);
+}
+.scaled{
+    margin-left: 200px;
+    transform: perspective(350px) scaleZ(6) rotateX(15deg) rotateY(30deg);
+    
+    /* rotation k case me koi fark nhi pad raha hai, yaha prr perspective lagane ka koi  jarurat nhi hai */
+    /* transform: rotateZ(30deg); */
+}
