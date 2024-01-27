@@ -1,0 +1,41 @@
+.container{
+    height: 400px;
+    border: 2px solid green;
+    display: flex;
+
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    /* gap: 10px; */
+}
+.box{
+    border: 1px solid brown;
+    background-color: aqua;
+    /* for equal grow of the boxex */
+    flex-grow: 1;
+    width: 100px;
+    /* for equal shrinking of the boxex while squizing */
+    /* flex-shrink: 1; */
+}
+
+#box1{
+    /*yaha prr box1 k default order value ko change kar ke greater than 0 kar diye, isliye wah sabse last me chal gya  */
+    order: 1;
+
+    /* agr keval box 1 ko grow karana ho to */  
+    /* flex-grow: 1; */
+    flex-shrink: 4;
+}
+#box3{
+    /* yaha prr box 3 ko box 1 k baad lagana hai, isliye usse greater than box 1 rakha ->2 */
+    order: 3;
+    /* pahle box 3 ko shrink karana hai to */
+    flex-shrink: 2;
+}
+#box2{
+    order: 2;
+    /* flex-grow: 1; */
+} 
