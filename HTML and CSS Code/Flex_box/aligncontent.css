@@ -1,0 +1,33 @@
+.container{
+    height: 400px;
+    border: 2px solid green;
+    display: flex;
+    
+
+    justify-content: center;
+    align-content: center;
+
+    flex-wrap: wrap;
+
+    /* gap: 10px; */
+
+    /*multiple row k bech k distance ko handle karne k liye hmm align content ka use karte hai  */
+    align-content: flex-start;
+    /* sari ki sari row uper chali jayegi */
+    align-content: flex-end;
+    align-content: center;
+    align-content: space-between;
+    /* eik row upper chali jayegi aur eik row neeche, aur beech me sara gap bacha rahega */
+    align-content: space-around;
+    /* beech me gap hota hai, left right me gap hota hai prr wo sara ka sara equal nhi hota*/
+    align-content: space-evenly;
+    /* sara sapce evenly distributed hota hai  */
+
+}
+
+.box{
+    border: 1px solid brown;
+    background-color: aqua;
+    width: 100px;
+
+}

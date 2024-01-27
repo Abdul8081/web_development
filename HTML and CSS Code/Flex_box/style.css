@@ -1,0 +1,70 @@
+.container{
+    height: 400px;
+    border: 2px solid green;
+
+    /* for mading the container flex 
+    we will write
+    display : flex;
+    */
+    display: flex;
+
+    /* flex direction se main axis k direction ko change kar sakte hai  */
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+    flex-direction: column;
+    flex-direction: row;
+    /* agr width same rakhna hai squize karne prr to uske liye command hai  */
+    flex-wrap: wrap;
+    /* iske bhi 3 value hote hai */
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
+
+    /* justify content each optin run kar k dekho!!  */
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-around;
+    /* space arround me sab k beech me space equal hai but left aur right side me space sahi nhi rahega */
+    justify-content: space-evenly;
+    /* sare ki sare spaces equal ho jayenge */
+    justify-content: space-between;
+    /* sare flex item cross axis k side se chipak jayenge aur beech me equal space ho jayenge */
+    justify-content: space-around;
+    justify-content: space-evenly;
+
+    /* agr cross axis prr flex items ko arrange karna ho to  
+    we use flex items
+    */
+    align-items: flex-start;
+    /* sari ki sari items uski(cross axis) ki starting me placed ho jayengi  */
+    align-items: center;
+    align-items: flex-end;
+    align-items: stretch;
+    /* yaha prr stretch wala value by default hota hai */
+    align-items: flex-start;
+    /* yaha prr sare content ki base line match nhi kar rahi hai */
+
+    /* prr agr sare content ki base line match karani ho to hmm align-items me base line likhte hai */
+    align-items: baseline;
+
+    justify-content: center;
+    align-items: center;
+    
+    gap: 10px;
+
+
+}
+.box{
+    /* yahh prr squize(inspect element kr k chipkane prr) width km ho ja rha hai */
+    border: 1px solid brown;
+    background-color: aqua;
+    width: 100px;
+    /* prr agr sqize karne prr aeisa chahte hai ki width same rahe to 
+    
+    isko container me jaker change karna hoga 
+    */
+    
+
+}
