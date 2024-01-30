@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>time table</title>
+    <style>
+        td, tr, table{
+            text-align: center;
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        .col1{
+            background-color: #d7d9f2;
+        }
+        .col2{
+            background-color: #ffe8d4;
+        }
+        .col5{
+            background-color: rgb(210, 210, 49);
+        }
+        .lab{
+            background-color: blanchedalmond;
+        }
+        caption{
+            text-align: center;
+        }
+        #hol{
+            background-color: rgb(204, 49, 49);
+        }
+        #prof{
+            color: #ce2dd1;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption><strong>Time Table for CSE 4th Sem</strong></caption>
+        <colgroup>
+        <col span="1" class="col1">
+        <col span="4" class="col2">
+        <col span="1" class="col5">
+        <col span="1" class="lab">
+
+        </colgroup>
+
+        <tr>
+            <th><strong>DAY\TIME</strong></th>
+            <td><strong>09:00 - 10:00</strong></td>
+            <td><strong>10:00 - 11:00</strong></td>
+            <td><strong>11:00 - 12:00</strong></td>
+            <td><strong>12:00 - 01:00</strong></td>
+            <td><strong>01:00 - 02:00</strong></td>
+            <td><strong>2:00 - 05:00
+                (LAB)</strong>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>MONDAY</strong></td>
+            <td>COMPUTER ORGANIZATION AND ARCHITECTURE</td>
+            <td>THEORY OF COMPUTATION</td>
+            <td>THEORY OF COMPUTATION</td>
+            <td>PROBABILITY THEORY AND STOCHASTIC PROCESSES</td>
+            <td><strong>L</strong></td>
+            <td>COMPUTER ORGANIZATION AND ARCHITECTURE LABORATORY</td>
+        </tr>
+        <tr>
+            <td><strong>TUESDAY</strong></td>
+            <td>SIGNALS AND SYSTEMS</td>
+            <td id="hol"><strong>No class</strong></td>
+            <td>DESIGN AND ANALYSIS OF ALGORITHMS</td>
+            <td>PROBABILITY THEORY AND STOCHASTIC PROCESSES</td>
+            <td><strong>U</strong></td>
+            <td id="hol"><strong>No lab</strong></td>
+        </tr>
+        <tr>
+            <td><strong>WEDNESDAY</strong></td>
+            <td>SIGNALS AND SYSTEMS</td>
+            <td>CONVEX OPTIMIZATION: THEORY AND ALGORITHMS</td>
+            <td>DESIGN AND ANALYSIS OF ALGORITHMS</td>
+            <td>PROBABILITY THEORY AND STOCHASTIC PROCESSES</td>
+            <td><strong>N</strong></td>
+            <td>SYSTEMS PROGRAMMING LABORATORY</td>
+        </tr>
+        <tr>
+            <td><strong>THRUSDAY</strong></td>
+            <td>COMPUTER ORGANIZATION AND ARCHITECTURE</td>
+            <td>THEORY OF COMPUTATION</td>
+            <td>SIGNAL AND SYSTEMS</td>
+            <td>CONVEX OPTIMIZATION: THEORY AND ALGORITHMS</td>
+            <td><strong>C</strong></td>
+            <td rowspan="2" id="hol"><strong>No lab</strong></td>
+        </tr>
+        <tr>
+            <td><strong>FRIDAY</strong></td>
+            <td>DESIGN AND ANALYSIS OF ALGORITHMS</td>
+            <td id="hol"><strong>No class</strong></td>
+            <td>COMPUTER ORGANIZATION AND ARCHITECTURE</td>
+            <td>CONVEX OPTIMIZATION: THEORY AND ALGORITHMS</td>
+            <td><strong>H</strong></td>
+            
+        </tr>
+    </table>
+    <br>
+    <ul>
+        <li><strong>COMPUTER ORGANIZATION AND ARCHITECTURE</strong></u> : <strong id="prof">SKD</strong></li>
+        <li><strong>DESIGN AND ANALYSIS OF ALGORITHMS</strong></u> : <strong id="prof">ASP</strong></li>
+        <li><strong>THEORY OF COMPUTATION</strong></u> : <strong id="prof">VM</strong></li>
+        <li><strong>SIGNALS AND SYSTEMS</strong></u> : <strong id="prof">DR. AVINASH KUMAR</strong></li>
+        <li><strong>PROBABILITY THEORY AND STOCHASTIC PROCESSES</strong></u> : <strong id="prof">PROF. S. SUNDAR</strong></li>
+        <li><strong>CONVEX OPTIMIZATION: THEORY AND ALGORITHMS</strong></u> : <strong id="prof">PROF. BALAJI</strong></li>
+    </ul>
+</body>
+</html>
