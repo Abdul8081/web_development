@@ -1,0 +1,63 @@
+.container{
+    height: 700px;
+    width: 600px;
+    border: 1px solid brown;
+    background-color: yellow;
+
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+
+    /* grid-gap: 10px; */
+    /* justify-content: start;
+    justify-content: end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    
+    */
+    /* align-items: start; */
+    /* sara content block k start me place ho gya hai */
+    /* chek it by inspect element */
+    /* align-items: end;
+    align-items: baseline; */
+    /* yaha prr positioning, content prr depend karta hai hai */
+    /* tabhi visually dekh payenge, jab content me sizes k ander change hoga */
+    /* align-items: stretch; */
+    /* pure cell me box stretch ho jata hai */
+    /* align-content: space-between;
+    align-content: space-evenly;
+    align-content: space-around; */
+
+
+    /* justify-content: center;
+    align-content: center; */
+
+    /* yah dono ppt ko replaced by place-content */
+    /* place-content: center; */
+
+
+    /* justify-items: center;
+    align-items: center; */
+
+    place-items:center;
+
+
+
+
+}
+.box{
+    border: 1px solid red;
+    background-color: aqua;
+}
+#box1{
+    /* justify-self: start;
+    justify-self: end;*/
+
+    /* justify-self: center; 
+    align-self: center; */
+
+
+
+}
