@@ -1,0 +1,39 @@
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: green;
+    border: 3px solid red;
+    display: flex;
+}
+.box{
+    border: 2px solid orange;
+    background-color: aqua;
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+
+    /* transition: 1s; */
+    /* transition-property: all;
+    transition-delay: 5s; */
+
+    /* transition: background-color 1s ease 3s; */
+    /* transition: all 200ms ease ; */
+
+    /* transition: transform 3s cubic-bezier(1,-0.91, 0, 1.67); */
+    /* here function cubic-bezier has been maded with the help of the styles -> boxes and -> in the function we find bol curve from there we made the function -> cubic brazier function */
+
+    transition-property: transform;
+    transition-delay: 500ms;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+
+    /* in charo ka uper we have given the shorthand notation */
+
+    /* if we dont give the transition property then in that case it would setted as the default : all  */
+    
+}
+.box:hover{
+    /* transform: rotate(360deg); */
+    background-color: brown;
+    transform: scale(2) translateX(500px) rotate(360deg);
+}
