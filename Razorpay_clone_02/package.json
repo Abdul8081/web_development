@@ -8,6 +8,7 @@
     "tailwindcss": "^3.4.1"
   },
   "dependencies": {
-    "feather": "^0.0.6"
+    "feather": "^0.0.6",
+    "moment": "^2.29.2"
   }
 }
