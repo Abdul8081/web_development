@@ -31,6 +31,7 @@
 //         // draw: function() {
 //         //     console.log('drawing rectangle');
 //         // }
+//                  OR 
 //         draw() {
 //             console.log('Drawing rectangle');
 //         }
@@ -69,7 +70,7 @@
 // console.log(rectangleObj);
 
 // delete rectangleObj.length;
-// console.log(rectangleOb
+// console.log(rectangleObj)
 
 
 //Priitive vs reference 
@@ -115,7 +116,7 @@
 // };
 //for-in-loop
 // for(let key in rectangle){
-    // //keys are reft]lected through key variable
+    // //keys are reflected through key variable
     // //values are reflected through rectangle[bracket]
     // console.log(key, rectangle[key]);
 // }
@@ -159,7 +160,7 @@
 //  console.log(dest);
 //  src.a++;
 
-/*Object clining using assign */
+/*Object cloning using assign */
 // let src = {
 //     a:10,
 //     b:20,
