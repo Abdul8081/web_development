@@ -48,7 +48,7 @@
 // console.log(rectangleObj2.length);
 // console.log(rectangleObj2.breath);
 
-//constructor function 
+// constructor function 
 // function Rectangle(len, bre) {
 //     this.length = len;
 //     this.breath = bre;
@@ -59,7 +59,7 @@
 
  
 
-//object creation using constructor
+// object creation using constructor
 // let rectangleObj = new Rectangle(4,6);
 // console.log(rectangleObj);
 
