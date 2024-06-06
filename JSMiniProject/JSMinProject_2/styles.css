@@ -235,6 +235,8 @@ h1 {
     z-index:-1;
 }
 
+/* this will work on the chrome */
+
 /* .slider::-webkit-slider-thumb {
     position:relative;
     z-index:1;
